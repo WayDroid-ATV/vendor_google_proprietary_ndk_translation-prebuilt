@@ -1,6 +1,10 @@
 # Enable native bridge for target executables
 on early-init && property:ro.enable.native.bridge.exec=1
     mount binfmt_misc binfmt_misc /proc/sys/fs/binfmt_misc
+    write /proc/sys/fs/binfmt_misc/arm_exe -1
+    write /proc/sys/fs/binfmt_misc/arm_dyn -1
+    write /proc/sys/fs/binfmt_misc/arm64_exe -1
+    write /proc/sys/fs/binfmt_misc/arm64_dyn -1
 
 on property:ro.enable.native.bridge.exec=1 && property:ro.dalvik.vm.isa.arm=x86
     copy /system/etc/binfmt_misc/arm_exe /proc/sys/fs/binfmt_misc/register
