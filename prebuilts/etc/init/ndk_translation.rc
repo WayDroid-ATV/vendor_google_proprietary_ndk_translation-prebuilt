@@ -6,10 +6,6 @@ on early-init && property:ro.enable.native.bridge.exec=1
     write /proc/sys/fs/binfmt_misc/arm64_exe -1
     write /proc/sys/fs/binfmt_misc/arm64_dyn -1
 
-on property:ro.enable.native.bridge.exec=1 && property:ro.dalvik.vm.isa.arm=x86
-    copy /system/etc/binfmt_misc/arm_exe /proc/sys/fs/binfmt_misc/register
-    copy /system/etc/binfmt_misc/arm_dyn /proc/sys/fs/binfmt_misc/register
-
 on property:ro.enable.native.bridge.exec=1 && property:ro.dalvik.vm.isa.arm64=x86_64
-    copy /system/etc/binfmt_misc/arm64_exe /proc/sys/fs/binfmt_misc/register
-    copy /system/etc/binfmt_misc/arm64_dyn /proc/sys/fs/binfmt_misc/register
+    write /proc/sys/fs/binfmt_misc/register :arm64_dyn:M::\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\xb7::/system/bin/ndk_translation_program_runner_binfmt_misc_arm64:P
+    write /proc/sys/fs/binfmt_misc/register :arm64_exe:M::\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\xb7::/system/bin/ndk_translation_program_runner_binfmt_misc_arm64:P

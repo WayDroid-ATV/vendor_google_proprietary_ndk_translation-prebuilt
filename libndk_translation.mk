@@ -10,7 +10,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.ndk_translation.version=0.2.3 \
 	ro.ndk_translation.flags=accurate-sigsegv
 
-PRODUCT_PACKAGES += \
-	ndk_translation_program_runner_binfmt_misc_arm64 \
-	ndk_translation.rc
-
+PRODUCT_PACKAGES += ndk_translation_program_runner
