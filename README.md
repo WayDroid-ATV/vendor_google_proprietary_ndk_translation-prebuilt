@@ -2,6 +2,7 @@
 
 Android images fingerprints:
 
+- `ndk_translation` : google/sdk_google_atv_x86/emulator_x86_arm:14/UTT1.240131.001.F1/11825476:user/dev-keys
 - `ndk_translation_arm64` : google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.036/12592187:user/release-keys
 
 ## How to include it in your Android-x86 build :
