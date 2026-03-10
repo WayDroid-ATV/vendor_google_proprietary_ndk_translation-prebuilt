@@ -122,7 +122,7 @@ android_bp.write <<~EOF
                 enabled: true,
                 stem: "ndk_translation_program_runner_binfmt_misc",
                 srcs: ["prebuilts/bin/ndk_translation_program_runner_binfmt_misc"],
-                required: ["ndk_translation-cpuinfo", "ndk_translation-ldconfig", #{(bins_32bit + libs_32bit).map { |f| "ndk_translation-#{f}".inspect } .join(', ')}],
+                required: ["libberberis_exec_region", "ndk_translation-cpuinfo", "ndk_translation-ldconfig", #{(bins_32bit + libs_32bit).map { |f| "ndk_translation-#{f}".inspect } .join(', ')}],
             },
             x86_64: {
                 enabled: true,
