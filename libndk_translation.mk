@@ -1,4 +1,6 @@
 # Bundle libndk_translation as ARM on x86 native bridge
+include frameworks/libs/native_bridge_support/native_bridge_support.mk
+
 WITH_NATIVE_BRIDGE := true
 
 PRODUCT_PROPERTY_OVERRIDES += \
