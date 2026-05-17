@@ -5,7 +5,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.berberis.flags=accurate-sigsegv \
 	ro.berberis.version=16.0.0 \
 	ro.dalvik.vm.native.bridge=libndk_translation.so \
-	ro.dalvik.vm.isa.arm=x86 \
 	ro.dalvik.vm.isa.arm64=x86_64 \
 	ro.enable.native.bridge.exec=1
 
@@ -26,6 +25,7 @@ PRODUCT_PACKAGES += \
 	libndk_translation_proxy_libc \
 	libndk_translation_proxy_libcamera2ndk \
 	libndk_translation_proxy_libjnigraphics \
+	libndk_translation_proxy_libm \
 	libndk_translation_proxy_libmediandk \
 	libndk_translation_proxy_libnativehelper \
 	libndk_translation_proxy_libnativewindow \
@@ -35,9 +35,7 @@ PRODUCT_PACKAGES += \
 	libndk_translation \
 	ndk_translation_program_runner_binfmt_misc \
 	ndk_translation.rc \
-	cpuinfo.arm.txt \
 	cpuinfo.arm64.txt \
-	ld.config.arm.txt \
 	ld.config.arm64.txt
 
 PRODUCT_SOONG_NAMESPACES += frameworks/libs/native_bridge_support/android_api/libc
