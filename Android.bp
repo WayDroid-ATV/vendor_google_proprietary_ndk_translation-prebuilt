@@ -17,14 +17,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libEGL",
+    name: "libproxy_arm64_to_x86_64_libEGL",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libEGL.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libEGL.so"],
         },
     },
     strip: {
@@ -33,14 +33,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libGLESv1_CM",
+    name: "libproxy_arm64_to_x86_64_libGLESv1_CM",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libGLESv1_CM.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libGLESv1_CM.so"],
         },
     },
     strip: {
@@ -49,14 +49,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libGLESv2",
+    name: "libproxy_arm64_to_x86_64_libGLESv2",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libGLESv2.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libGLESv2.so"],
         },
     },
     strip: {
@@ -65,14 +65,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libGLESv3",
+    name: "libproxy_arm64_to_x86_64_libGLESv3",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libGLESv3.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libGLESv3.so"],
         },
     },
     strip: {
@@ -81,14 +81,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libOpenMAXAL",
+    name: "libproxy_arm64_to_x86_64_libOpenMAXAL",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libOpenMAXAL.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libOpenMAXAL.so"],
         },
     },
     strip: {
@@ -97,14 +97,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libOpenSLES",
+    name: "libproxy_arm64_to_x86_64_libOpenSLES",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libOpenSLES.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libOpenSLES.so"],
         },
     },
     strip: {
@@ -113,14 +113,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libaaudio",
+    name: "libproxy_arm64_to_x86_64_libaaudio",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libaaudio.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libaaudio.so"],
         },
     },
     strip: {
@@ -129,14 +129,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libamidi",
+    name: "libproxy_arm64_to_x86_64_libamidi",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libamidi.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libamidi.so"],
         },
     },
     strip: {
@@ -145,14 +145,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libandroid",
+    name: "libproxy_arm64_to_x86_64_libandroid",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libandroid.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libandroid.so"],
         },
     },
     strip: {
@@ -161,14 +161,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libandroid_runtime",
+    name: "libproxy_arm64_to_x86_64_libandroid_runtime",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libandroid_runtime.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libandroid_runtime.so"],
         },
     },
     strip: {
@@ -177,14 +177,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libbinder_ndk",
+    name: "libproxy_arm64_to_x86_64_libbinder_ndk",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libbinder_ndk.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libbinder_ndk.so"],
         },
     },
     strip: {
@@ -193,14 +193,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libc",
+    name: "libproxy_arm64_to_x86_64_libc",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libc.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libc.so"],
         },
     },
     strip: {
@@ -209,14 +209,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libcamera2ndk",
+    name: "libproxy_arm64_to_x86_64_libcamera2ndk",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libcamera2ndk.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libcamera2ndk.so"],
         },
     },
     strip: {
@@ -225,14 +225,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libjnigraphics",
+    name: "libproxy_arm64_to_x86_64_libjnigraphics",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libjnigraphics.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libjnigraphics.so"],
         },
     },
     strip: {
@@ -241,14 +241,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libm",
+    name: "libproxy_arm64_to_x86_64_libm",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libm.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libm.so"],
         },
     },
     strip: {
@@ -257,14 +257,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libmediandk",
+    name: "libproxy_arm64_to_x86_64_libmediandk",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libmediandk.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libmediandk.so"],
         },
     },
     strip: {
@@ -273,14 +273,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libnativehelper",
+    name: "libproxy_arm64_to_x86_64_libnativehelper",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libnativehelper.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libnativehelper.so"],
         },
     },
     strip: {
@@ -289,14 +289,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libnativewindow",
+    name: "libproxy_arm64_to_x86_64_libnativewindow",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libnativewindow.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libnativewindow.so"],
         },
     },
     strip: {
@@ -305,14 +305,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libneuralnetworks",
+    name: "libproxy_arm64_to_x86_64_libneuralnetworks",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libneuralnetworks.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libneuralnetworks.so"],
         },
     },
     strip: {
@@ -321,14 +321,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libvulkan",
+    name: "libproxy_arm64_to_x86_64_libvulkan",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libvulkan.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libvulkan.so"],
         },
     },
     strip: {
@@ -337,37 +337,25 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libndk_translation_proxy_libwebviewchromium_plat_support",
+    name: "libproxy_arm64_to_x86_64_libwebviewchromium_plat_support",
     check_elf_files: false,
     compile_multilib: "64",
     enabled: false,
     arch: {
         x86_64: {
             enabled: true,
-            srcs: ["prebuilts/lib64/libndk_translation_proxy_libwebviewchromium_plat_support.so"],
+            srcs: ["prebuilts/lib64/libproxy_arm64_to_x86_64_libwebviewchromium_plat_support.so"],
         },
     },
     strip: {
         none: true,
     },
-}
-
-prebuilt_etc {
-    name: "cpuinfo.arm64.txt",
-    sub_dir: ".",
-    src: "prebuilts/etc/cpuinfo.arm64.txt",
 }
 
 prebuilt_etc {
     name: "ndk_translation.rc",
     sub_dir: "init",
     src: "prebuilts/etc/init/ndk_translation.rc",
-}
-
-prebuilt_etc {
-    name: "ld.config.arm64.txt",
-    sub_dir: ".",
-    src: "prebuilts/etc/ld.config.arm64.txt",
 }
 
 cc_prebuilt_binary {
